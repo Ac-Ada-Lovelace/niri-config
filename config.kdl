@@ -9,16 +9,11 @@
 input {
     keyboard {
         xkb {
-            // You can set rules, model, layout, variant and options.
-            // For more information, see xkeyboard-config(7).
-
-            // For example:
-            // layout "us,ru"
-            // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
-
-            // If this section is empty, niri will fetch xkb settings
-            // from org.freedesktop.locale1. You can control these using
-            // localectl set-x11-keymap.
+            // Swap Alt and Super to match mac-style Option/Command ordering.
+            // https://wiki.archlinux.org/title/X_keyboard_extension#Alt+and_Super_keys
+            // Map CapsLock to act as an extra Left Ctrl.
+            // https://wiki.archlinux.org/title/X_keyboard_extension#Caps_Lock_mapping
+            options "caps:ctrl_modifier,altwin:swap_alt_win"
         }
 
         // Enable numlock on startup, omitting this setting disables it.
@@ -106,12 +101,25 @@ input {
     position x=1280 y=0
 }
 
+output "PNP(DZX) Z1 000000000000" {
+    mode "1920x1080@60.000"
+    scale 1
+    position x=0 y=0
+}
+
+output "Stargate Technology HDMI 0x01010101" {
+    mode "2560x1600@59.997"
+    // Slightly upscale the dense 14" panel for readability.
+    scale 1.25
+    position x=1920 y=0
+}
+
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Layout
 layout {
     // Set gaps around windows in logical pixels.
-    gaps 16
+    gaps 24
 
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
@@ -159,7 +167,7 @@ layout {
         // off
 
         // How many logical pixels the ring extends out from the windows.
-        width 4
+        width 2
 
         // Colors can be set in a variety of ways:
         // - CSS named colors: "red"
@@ -167,13 +175,13 @@ layout {
         // - CSS-like notation: "rgb(255, 127, 0)", rgba(), hsl() and a few others.
 
         // Color of the ring on the active monitor.
-        active-color "#7fc8ff"
+        active-gradient from="#8aadf480" to="#c6a0f680" angle=135 relative-to="workspace-view"
 
         // Color of the ring on inactive monitors.
         //
         // The focus ring only draws around the active window, so the only place
         // where you can see its inactive-color is on other monitors.
-        inactive-color "#505050"
+        inactive-color "#1c1f2e"
 
         // You can also use gradients. They take precedence over solid colors.
         // Gradients are rendered the same as CSS linear-gradient(angle, from, to).
@@ -197,9 +205,9 @@ layout {
         // If you enable the border, you probably want to disable the focus ring.
         off
 
-        width 4
-        active-color "#ffc87f"
-        inactive-color "#505050"
+        width 1
+        active-color "#2b2f45"
+        inactive-color "#1c1f2e"
 
         // Color of the border around windows that request your attention.
         urgent-color "#9b0000"
@@ -215,7 +223,7 @@ layout {
     // You can enable drop shadows for windows.
     shadow {
         // Uncomment the next line to enable shadows.
-        // on
+        on
 
         // By default, the shadow draws only around its window, and not behind it.
         // Uncomment this setting to make the shadow draw behind its window.
@@ -237,16 +245,16 @@ layout {
         // pixels and match the CSS box-shadow properties.
 
         // Softness controls the shadow blur radius.
-        softness 30
+        softness 40
 
         // Spread expands the shadow.
-        spread 5
+        spread 8
 
         // Offset moves the shadow relative to the window.
-        offset x=0 y=5
+        offset x=0 y=8
 
         // You can also change the shadow color and opacity.
-        color "#0007"
+        color "#0f1117b0"
     }
 
     // Struts shrink the area occupied by windows, similarly to layer-shell panels.
@@ -269,6 +277,7 @@ layout {
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "waybar"
+spawn-at-startup "swaybg" "-m" "fill" "-i" "/home/yehj/pic/daniel-leone-v7daTKlZzaw-unsplash.jpg"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -283,7 +292,8 @@ hotkey-overlay {
 // Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.
 // This option will also fix border/focus ring drawing behind some semitransparent windows.
 // After enabling or disabling this, you need to restart the apps for this to take effect.
-// prefer-no-csd
+// See https://yalter.github.io/niri/Configuration:-Layout#client-side-decorations
+prefer-no-csd
 
 // You can change the path where screenshots are saved.
 // A ~ at the front will be expanded to the home directory.
@@ -339,9 +349,9 @@ window-rule {
     // block-out-from "screencast"
 }
 
-// Example: enable rounded corners for all windows.
-// (This example rule is commented out with a "/-" in front.)
-/-window-rule {
+// Rounded corners for every window keep the new border + shadow cohesive.
+// See https://yalter.github.io/niri/Configuration:-Window-Rules#rounded-corners
+window-rule {
     geometry-corner-radius 12
     clip-to-geometry true
 }
@@ -367,6 +377,7 @@ binds {
     Mod+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
+    Super+B { spawn "sh" "-c" "cliphist list | wofi --dmenu | cliphist decode | wl-copy"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.
