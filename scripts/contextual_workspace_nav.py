@@ -214,7 +214,9 @@ def main() -> int:
     windows_after = _collect_windows()
     if not windows_after:
         if args.debug:
-            print("Could not re-query windows after the primary action.", file=sys.stderr)
+            print(
+                "Could not re-query windows after the primary action.", file=sys.stderr
+            )
         return 1
 
     fallback_needed: bool
@@ -224,9 +226,7 @@ def main() -> int:
             _window_identity(focused_after) == focused_identity
         )
         if args.debug:
-            after_identity = (
-                _window_identity(focused_after) if focused_after else None
-            )
+            after_identity = _window_identity(focused_after) if focused_after else None
             print(
                 f"Focused identity before={focused_identity} after={after_identity} "
                 f"-> fallback_needed={fallback_needed}",
