@@ -1,0 +1,299 @@
+[2025-12-23 14:56:37.359] _select_rofi: starting with thumbnails
+[2025-12-23 14:56:37.362] _select_rofi: found 4 wallpapers
+[2025-12-23 14:56:47.756] _select_rofi: rofi exited with code 1
+[2025-12-23 14:56:47.756] _select_rofi: canceled or no selection
+[2025-12-23 14:57:27.343] _select_rofi: starting with thumbnails
+[2025-12-23 14:57:27.346] _select_rofi: found 4 wallpapers
+[2025-12-23 14:57:30.133] _select_rofi: rofi exited with code 1
+[2025-12-23 14:57:30.133] _select_rofi: canceled or no selection
+[2025-12-23 14:57:46.075] _select_rofi: starting with thumbnails
+[2025-12-23 14:57:46.077] _select_rofi: found 4 wallpapers
+[2025-12-23 14:57:50.574] _select_rofi: rofi exited with code 1
+[2025-12-23 14:57:50.574] _select_rofi: canceled or no selection
+[2025-12-23 14:57:59.711] _select_rofi: starting with thumbnails
+[2025-12-23 14:57:59.714] _select_rofi: found 4 wallpapers
+[2025-12-23 14:58:01.699] _select_rofi: rofi exited with code 1
+[2025-12-23 14:58:01.699] _select_rofi: canceled or no selection
+[2025-12-23 14:58:10.949] _select_rofi: starting with thumbnails
+[2025-12-23 14:58:10.953] _select_rofi: found 4 wallpapers
+[2025-12-23 14:58:12.781] _select_rofi: rofi exited with code 1
+[2025-12-23 14:58:12.782] _select_rofi: canceled or no selection
+[2025-12-23 14:58:20.059] _select_rofi: starting with thumbnails
+[2025-12-23 14:58:20.062] _select_rofi: found 4 wallpapers
+[2025-12-23 14:58:23.724] _select_rofi: rofi exited with code 1
+[2025-12-23 14:58:23.724] _select_rofi: canceled or no selection
+[2025-12-23 14:58:31.069] _select_rofi: starting with thumbnails
+[2025-12-23 14:58:31.072] _select_rofi: found 4 wallpapers
+[2025-12-23 14:58:46.451] _select_rofi: rofi exited with code 1
+[2025-12-23 14:58:46.452] _select_rofi: canceled or no selection
+[2025-12-23 14:58:54.500] _select_rofi: starting with thumbnails
+[2025-12-23 14:58:54.504] _select_rofi: found 4 wallpapers
+[2025-12-23 14:58:56.788] _select_rofi: rofi exited with code 1
+[2025-12-23 14:58:56.788] _select_rofi: canceled or no selection
+[2025-12-23 14:59:03.259] _select_rofi: starting with thumbnails
+[2025-12-23 14:59:03.262] _select_rofi: found 4 wallpapers
+[2025-12-23 14:59:04.441] _select_rofi: rofi exited with code 1
+[2025-12-23 14:59:04.441] _select_rofi: canceled or no selection
+[2025-12-23 14:59:08.306] _select_rofi: starting with thumbnails
+[2025-12-23 14:59:08.308] _select_rofi: found 4 wallpapers
+[2025-12-23 14:59:15.741] _select_rofi: rofi exited with code 1
+[2025-12-23 14:59:15.742] _select_rofi: canceled or no selection
+[2025-12-23 15:29:56.337] _select_rofi: starting with thumbnails
+[2025-12-23 15:29:56.340] _select_rofi: found 4 wallpapers
+[2025-12-23 15:29:59.741] _select_rofi: rofi exited with code 1
+[2025-12-23 15:29:59.741] _select_rofi: canceled or no selection
+[2025-12-23 15:33:38.305] _select_rofi: starting with thumbnails
+[2025-12-23 15:33:38.308] _select_rofi: found 5 wallpapers
+[2025-12-23 15:33:48.125] _select_rofi: rofi exited with code 0
+[2025-12-23 15:33:48.125] _select_rofi: selected id=4
+[2025-12-23 15:33:48.125] _select_rofi: wallpaper not found for id 4
+[2025-12-23 15:34:26.087] _select_rofi: starting with thumbnails
+[2025-12-23 15:34:26.091] _select_rofi: found 5 wallpapers
+[2025-12-23 15:34:29.028] _select_rofi: rofi exited with code 1
+[2025-12-23 15:34:29.028] _select_rofi: canceled or no selection
+[2025-12-23 15:34:34.969] _select_rofi: starting with thumbnails
+[2025-12-23 15:34:34.973] _select_rofi: found 5 wallpapers
+[2025-12-23 15:34:36.237] _select_rofi: rofi exited with code 1
+[2025-12-23 15:34:36.237] _select_rofi: canceled or no selection
+[2025-12-23 15:34:37.699] _select_rofi: starting with thumbnails
+[2025-12-23 15:34:37.703] _select_rofi: found 5 wallpapers
+[2025-12-23 15:34:38.871] _select_rofi: rofi exited with code 1
+[2025-12-23 15:34:38.872] _select_rofi: canceled or no selection
+[2025-12-23 15:34:44.291] _select_rofi: starting with thumbnails
+[2025-12-23 15:34:44.294] _select_rofi: found 5 wallpapers
+[2025-12-23 15:34:44.972] _select_rofi: rofi exited with code 0
+[2025-12-23 15:34:44.972] _select_rofi: selected id=0
+[2025-12-23 15:34:44.972] _select_rofi: wallpaper not found for id 0
+[2025-12-23 15:34:47.360] _select_rofi: starting with thumbnails
+[2025-12-23 15:34:47.362] _select_rofi: found 5 wallpapers
+[2025-12-23 15:34:49.144] _select_rofi: rofi exited with code 0
+[2025-12-23 15:34:49.144] _select_rofi: selected id=0
+[2025-12-23 15:34:49.145] _select_rofi: wallpaper not found for id 0
+[2025-12-23 15:34:57.551] _select_rofi: starting with thumbnails
+[2025-12-23 15:34:57.554] _select_rofi: found 5 wallpapers
+[2025-12-23 15:34:59.932] _select_rofi: rofi exited with code 1
+[2025-12-23 15:34:59.932] _select_rofi: canceled or no selection
+[2025-12-23 15:35:13.054] _select_rofi: starting with thumbnails
+[2025-12-23 15:35:13.057] _select_rofi: found 5 wallpapers
+[2025-12-23 15:35:21.871] _select_rofi: rofi exited with code 1
+[2025-12-23 15:35:21.871] _select_rofi: canceled or no selection
+[2025-12-23 15:35:56.464] _select_rofi: starting with thumbnails
+[2025-12-23 15:35:56.467] _select_rofi: found 5 wallpapers
+[2025-12-23 15:35:59.687] _select_rofi: rofi exited with code 1
+[2025-12-23 15:35:59.687] _select_rofi: canceled or no selection
+[2025-12-23 15:41:16.433] _select_rofi: starting with thumbnails
+[2025-12-23 15:41:16.436] _select_rofi: found 6 wallpapers
+[2025-12-23 15:41:34.665] _select_rofi: rofi exited with code 65
+[2025-12-23 15:41:34.665] _select_rofi: canceled or no selection
+[2025-12-23 15:41:51.304] _select_rofi: starting with thumbnails
+[2025-12-23 15:41:51.307] _select_rofi: found 6 wallpapers
+[2025-12-23 15:41:56.496] _select_rofi: starting with thumbnails
+[2025-12-23 15:41:56.498] _select_rofi: found 6 wallpapers
+[2025-12-23 15:41:56.522] _select_rofi: rofi exited with code 1
+[2025-12-23 15:41:56.522] _select_rofi: canceled or no selection
+[2025-12-23 15:41:57.164] _select_rofi: rofi exited with code 65
+[2025-12-23 15:41:57.164] _select_rofi: canceled or no selection
+[2025-12-23 15:42:12.831] _select_rofi: starting with thumbnails
+[2025-12-23 15:42:12.835] _select_rofi: found 6 wallpapers
+[2025-12-23 15:42:15.951] _select_rofi: rofi exited with code 65
+[2025-12-23 15:42:15.951] _select_rofi: canceled or no selection
+[2025-12-23 15:42:20.384] _select_rofi: starting with thumbnails
+[2025-12-23 15:42:20.387] _select_rofi: found 6 wallpapers
+[2025-12-23 15:42:21.590] _select_rofi: rofi exited with code 65
+[2025-12-23 15:42:21.590] _select_rofi: canceled or no selection
+[2025-12-23 15:42:22.410] _select_rofi: starting with thumbnails
+[2025-12-23 15:42:22.413] _select_rofi: found 6 wallpapers
+[2025-12-23 15:42:23.363] _select_rofi: rofi exited with code 65
+[2025-12-23 15:42:23.363] _select_rofi: canceled or no selection
+[2025-12-23 15:43:07.162] _select_rofi: starting with thumbnails
+[2025-12-23 15:43:07.165] _select_rofi: found 6 wallpapers
+[2025-12-23 15:43:15.917] _select_rofi: rofi exited with code 1
+[2025-12-23 15:43:15.917] _select_rofi: canceled or no selection
+[2025-12-23 15:43:24.037] _select_rofi: starting with thumbnails
+[2025-12-23 15:43:24.041] _select_rofi: found 6 wallpapers
+[2025-12-23 15:43:29.140] _select_rofi: rofi exited with code 0
+[2025-12-23 15:43:29.141] _select_rofi: selected id=5
+[2025-12-23 15:43:29.141] _select_rofi: wallpaper not found for id 5
+[2025-12-23 15:43:33.706] _select_rofi: starting with thumbnails
+[2025-12-23 15:43:33.709] _select_rofi: found 6 wallpapers
+[2025-12-23 15:43:35.394] _select_rofi: rofi exited with code 0
+[2025-12-23 15:43:35.395] _select_rofi: selected id=5
+[2025-12-23 15:43:35.395] _select_rofi: wallpaper not found for id 5
+[2025-12-23 15:43:41.752] _select_rofi: starting with thumbnails
+[2025-12-23 15:43:41.756] _select_rofi: found 6 wallpapers
+[2025-12-23 15:43:44.952] _select_rofi: rofi exited with code 0
+[2025-12-23 15:43:44.952] _select_rofi: selected id=5
+[2025-12-23 15:43:44.952] _select_rofi: wallpaper not found for id 5
+[2025-12-23 15:45:11.661] _select_rofi: starting with thumbnails
+[2025-12-23 15:45:11.663] _select_rofi: found 6 wallpapers
+[2025-12-23 15:45:15.047] _select_rofi: rofi exited with code 0
+[2025-12-23 15:45:15.047] _select_rofi: selected id=5
+[2025-12-23 15:45:15.047] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/wallhaven-kxmgv1_3840x2400.png
+[2025-12-23 16:00:54.655] _select_rofi: starting with thumbnails
+[2025-12-23 16:00:54.657] _select_rofi: found 6 wallpapers
+[2025-12-23 16:01:00.561] _select_rofi: rofi exited with code 0
+[2025-12-23 16:01:00.561] _select_rofi: selected id=0
+[2025-12-23 16:01:00.561] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/nik-iurev-7h82oLj3GA0-unsplash.jpg
+[2025-12-23 16:01:04.732] _select_rofi: starting with thumbnails
+[2025-12-23 16:01:04.735] _select_rofi: found 6 wallpapers
+[2025-12-23 16:01:10.059] _select_rofi: rofi exited with code 0
+[2025-12-23 16:01:10.059] _select_rofi: selected id=2
+[2025-12-23 16:01:10.059] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/wallhaven-4y5d7g_3840x2400.png
+[2025-12-23 16:02:42.125] _select_rofi: starting with thumbnails
+[2025-12-23 16:02:42.128] _select_rofi: found 8 wallpapers
+[2025-12-23 16:02:51.607] _select_rofi: rofi exited with code 1
+[2025-12-23 16:02:51.607] _select_rofi: canceled or no selection
+[2025-12-23 16:03:46.707] _select_rofi: starting with thumbnails
+[2025-12-23 16:03:46.710] _select_rofi: found 8 wallpapers
+[2025-12-23 16:03:48.984] _select_rofi: rofi exited with code 1
+[2025-12-23 16:03:48.984] _select_rofi: canceled or no selection
+[2025-12-23 16:03:52.045] _select_rofi: starting with thumbnails
+[2025-12-23 16:03:52.048] _select_rofi: found 8 wallpapers
+[2025-12-23 16:03:53.231] _select_rofi: rofi exited with code 1
+[2025-12-23 16:03:53.231] _select_rofi: canceled or no selection
+[2025-12-23 16:03:57.237] _select_rofi: starting with thumbnails
+[2025-12-23 16:03:57.240] _select_rofi: found 8 wallpapers
+[2025-12-23 16:03:58.596] _select_rofi: rofi exited with code 1
+[2025-12-23 16:03:58.596] _select_rofi: canceled or no selection
+[2025-12-23 16:04:00.673] _select_rofi: starting with thumbnails
+[2025-12-23 16:04:00.677] _select_rofi: found 8 wallpapers
+[2025-12-23 16:04:01.680] _select_rofi: rofi exited with code 1
+[2025-12-23 16:04:01.680] _select_rofi: canceled or no selection
+[2025-12-23 16:04:03.075] _select_rofi: starting with thumbnails
+[2025-12-23 16:04:03.078] _select_rofi: found 8 wallpapers
+[2025-12-23 16:04:05.466] _select_rofi: rofi exited with code 1
+[2025-12-23 16:04:05.466] _select_rofi: canceled or no selection
+[2025-12-23 16:04:07.580] _select_rofi: starting with thumbnails
+[2025-12-23 16:04:07.583] _select_rofi: found 8 wallpapers
+[2025-12-23 16:04:13.723] _select_rofi: rofi exited with code 1
+[2025-12-23 16:04:13.724] _select_rofi: canceled or no selection
+[2025-12-23 16:04:21.088] _select_rofi: starting with thumbnails
+[2025-12-23 16:04:21.091] _select_rofi: found 8 wallpapers
+[2025-12-23 16:04:22.503] _select_rofi: rofi exited with code 1
+[2025-12-23 16:04:22.503] _select_rofi: canceled or no selection
+[2025-12-23 16:04:29.638] _select_rofi: starting with thumbnails
+[2025-12-23 16:04:29.641] _select_rofi: found 8 wallpapers
+[2025-12-23 16:04:30.720] _select_rofi: rofi exited with code 1
+[2025-12-23 16:04:30.720] _select_rofi: canceled or no selection
+[2025-12-23 16:04:36.927] _select_rofi: starting with thumbnails
+[2025-12-23 16:04:36.931] _select_rofi: found 8 wallpapers
+[2025-12-23 16:04:37.905] _select_rofi: rofi exited with code 1
+[2025-12-23 16:04:37.905] _select_rofi: canceled or no selection
+[2025-12-23 16:04:41.204] _select_rofi: starting with thumbnails
+[2025-12-23 16:04:41.207] _select_rofi: found 8 wallpapers
+[2025-12-23 16:04:42.890] _select_rofi: rofi exited with code 1
+[2025-12-23 16:04:42.890] _select_rofi: canceled or no selection
+[2025-12-23 16:04:45.825] _select_rofi: starting with thumbnails
+[2025-12-23 16:04:45.828] _select_rofi: found 8 wallpapers
+[2025-12-23 16:04:46.710] _select_rofi: rofi exited with code 1
+[2025-12-23 16:04:46.710] _select_rofi: canceled or no selection
+[2025-12-23 16:04:49.403] _select_rofi: starting with thumbnails
+[2025-12-23 16:04:49.406] _select_rofi: found 8 wallpapers
+[2025-12-23 16:05:09.950] _select_rofi: rofi exited with code 0
+[2025-12-23 16:05:09.950] _select_rofi: selected id=0
+[2025-12-23 16:05:09.950] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/nik-iurev-7h82oLj3GA0-unsplash.jpg
+[2025-12-23 16:05:20.512] _select_rofi: starting with thumbnails
+[2025-12-23 16:05:20.516] _select_rofi: found 8 wallpapers
+[2025-12-23 16:05:22.160] _select_rofi: rofi exited with code 1
+[2025-12-23 16:05:22.160] _select_rofi: canceled or no selection
+[2025-12-23 16:05:29.594] _select_rofi: starting with thumbnails
+[2025-12-23 16:05:29.596] _select_rofi: found 8 wallpapers
+[2025-12-23 16:05:40.154] _select_rofi: rofi exited with code 1
+[2025-12-23 16:05:40.154] _select_rofi: canceled or no selection
+[2025-12-23 16:05:47.885] _select_rofi: starting with thumbnails
+[2025-12-23 16:05:47.888] _select_rofi: found 8 wallpapers
+[2025-12-23 16:05:50.750] _select_rofi: rofi exited with code 1
+[2025-12-23 16:05:50.750] _select_rofi: canceled or no selection
+[2025-12-23 16:05:58.027] _select_rofi: starting with thumbnails
+[2025-12-23 16:05:58.031] _select_rofi: found 8 wallpapers
+[2025-12-23 16:06:09.253] _select_rofi: rofi exited with code 0
+[2025-12-23 16:06:09.253] _select_rofi: selected id=1
+[2025-12-23 16:06:09.253] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/wallhaven-211xrg_3840x2400.png
+[2025-12-23 16:06:15.622] _select_rofi: starting with thumbnails
+[2025-12-23 16:06:15.626] _select_rofi: found 8 wallpapers
+[2025-12-23 16:06:21.275] _select_rofi: rofi exited with code 1
+[2025-12-23 16:06:21.276] _select_rofi: canceled or no selection
+[2025-12-23 16:07:37.339] _select_rofi: starting with thumbnails
+[2025-12-23 16:07:37.341] _select_rofi: found 8 wallpapers
+[2025-12-23 16:07:41.481] _select_rofi: rofi exited with code 0
+[2025-12-23 16:07:41.481] _select_rofi: selected id=7
+[2025-12-23 16:07:41.482] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/wallhaven-kxmgv1_3840x2400.png
+[2025-12-23 16:16:43.282] _select_rofi: starting with thumbnails
+[2025-12-23 16:16:43.286] _select_rofi: found 9 wallpapers
+[2025-12-23 16:16:46.406] _select_rofi: rofi exited with code 0
+[2025-12-23 16:16:46.406] _select_rofi: selected id=0
+[2025-12-23 16:16:46.406] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/ChatGPT Image 2025年12月23日 16_16_36.png
+[2025-12-23 16:18:59.116] _select_rofi: starting with thumbnails
+[2025-12-23 16:18:59.119] _select_rofi: found 9 wallpapers
+[2025-12-23 16:19:00.535] _select_rofi: rofi exited with code 0
+[2025-12-23 16:19:00.535] _select_rofi: selected id=0
+[2025-12-23 16:19:00.535] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/ChatGPT Image 2025年12月23日 16_18_37.png
+[2025-12-23 16:26:58.287] _select_rofi: starting with thumbnails
+[2025-12-23 16:26:58.291] _select_rofi: found 9 wallpapers
+[2025-12-23 16:27:02.458] _select_rofi: rofi exited with code 0
+[2025-12-23 16:27:02.458] _select_rofi: selected id=8
+[2025-12-23 16:27:02.458] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/wallhaven-kxmgv1_3840x2400.png
+[2025-12-23 16:29:18.372] _select_rofi: starting with thumbnails
+[2025-12-23 16:29:18.376] _select_rofi: found 9 wallpapers
+[2025-12-23 16:29:19.891] _select_rofi: rofi exited with code 1
+[2025-12-23 16:29:19.891] _select_rofi: canceled or no selection
+[2025-12-23 16:29:20.673] _select_rofi: starting with thumbnails
+[2025-12-23 16:29:20.676] _select_rofi: found 9 wallpapers
+[2025-12-23 16:29:22.844] _select_rofi: rofi exited with code 0
+[2025-12-23 16:29:22.844] _select_rofi: selected id=5
+[2025-12-23 16:29:22.844] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/wallhaven-6llg7q_3840x2400.png
+[2025-12-23 17:14:19.642] _select_rofi: starting with thumbnails
+[2025-12-23 17:14:19.646] _select_rofi: found 11 wallpapers
+[2025-12-23 17:14:27.392] _select_rofi: rofi exited with code 0
+[2025-12-23 17:14:27.392] _select_rofi: selected id=9
+[2025-12-23 17:14:27.392] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/wallhaven-d88q5g_3840x2400.png
+[2025-12-23 17:17:48.655] _select_rofi: starting with thumbnails
+[2025-12-23 17:17:48.658] _select_rofi: found 14 wallpapers
+[2025-12-23 17:17:54.974] _select_rofi: rofi exited with code 0
+[2025-12-23 17:17:54.974] _select_rofi: selected id=2
+[2025-12-23 17:17:54.974] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/clay-banks-u27Rrbs9Dwc-unsplash.jpg
+[2025-12-24 10:03:12.794] _select_rofi: starting with thumbnails
+[2025-12-24 10:03:12.799] _select_rofi: found 14 wallpapers
+[2025-12-24 10:03:23.010] _select_rofi: rofi exited with code 0
+[2025-12-24 10:03:23.010] _select_rofi: selected id=2*
+[2025-12-24 10:03:23.010] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/clay-banks-u27Rrbs9Dwc-unsplash.jpg
+[2025-12-24 10:12:37.365] _select_rofi: starting with thumbnails
+[2025-12-24 10:12:37.368] _select_rofi: found 14 wallpapers
+[2025-12-24 10:12:40.605] _select_rofi: rofi exited with code 0
+[2025-12-24 10:12:40.605] _select_rofi: selected id=5
+[2025-12-24 10:12:40.605] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/tyler-lastovich-ddLiNMqWAOM-unsplash.jpg
+[2025-12-24 10:12:57.610] _select_rofi: starting with thumbnails
+[2025-12-24 10:12:57.613] _select_rofi: found 14 wallpapers
+[2025-12-24 10:12:58.627] _select_rofi: starting with thumbnails
+[2025-12-24 10:12:58.631] _select_rofi: found 14 wallpapers
+[2025-12-24 10:12:58.655] _select_rofi: rofi exited with code 1
+[2025-12-24 10:12:58.655] _select_rofi: canceled or no selection
+[2025-12-24 10:13:01.776] _select_rofi: rofi exited with code 0
+[2025-12-24 10:13:01.777] _select_rofi: selected id=2
+[2025-12-24 10:13:01.777] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/clay-banks-u27Rrbs9Dwc-unsplash.jpg
+[2025-12-25 00:40:14.046] _select_rofi: starting with thumbnails
+[2025-12-25 00:40:14.049] _select_rofi: found 14 wallpapers
+[2025-12-25 00:40:18.749] _select_rofi: rofi exited with code 0
+[2025-12-25 00:40:18.750] _select_rofi: selected id=13
+[2025-12-25 00:40:18.750] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/wallhaven-kxmgv1_3840x2400.png
+[2025-12-25 21:23:33.060] _select_rofi: starting with thumbnails
+[2025-12-25 21:23:33.064] _select_rofi: found 14 wallpapers
+[2025-12-25 21:23:43.227] _select_rofi: rofi exited with code 0
+[2025-12-25 21:23:43.227] _select_rofi: selected id=2
+[2025-12-25 21:23:43.227] _select_rofi: setting wallpaper to /home/yehj/.config/niri/wallpaper/clay-banks-u27Rrbs9Dwc-unsplash.jpg
+[2025-12-26 14:41:28.827] _select_rofi: starting with thumbnails
+[2025-12-26 14:41:28.832] _select_rofi: found 14 wallpapers
+[2025-12-26 14:41:30.014] _select_rofi: rofi exited with code 1
+[2025-12-26 14:41:30.014] _select_rofi: canceled or no selection
+[2025-12-26 14:41:39.579] _select_rofi: starting with thumbnails
+[2025-12-26 14:41:39.582] _select_rofi: found 14 wallpapers
+[2025-12-26 14:41:40.338] _select_rofi: rofi exited with code 1
+[2025-12-26 14:41:40.338] _select_rofi: canceled or no selection
+[2026-01-01 17:47:12.691] _select_rofi: starting with thumbnails
+[2026-01-01 17:47:12.695] _select_rofi: found 14 wallpapers
+[2026-01-01 17:47:13.827] _select_rofi: rofi exited with code 1
+[2026-01-01 17:47:13.827] _select_rofi: canceled or no selection
+[2026-01-01 20:01:11.820] _select_rofi: starting with thumbnails
+[2026-01-01 20:01:11.824] _select_rofi: found 14 wallpapers
+[2026-01-01 20:01:13.656] _select_rofi: rofi exited with code 1
+[2026-01-01 20:01:13.656] _select_rofi: canceled or no selection

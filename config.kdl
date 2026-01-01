@@ -101,17 +101,16 @@ input {
     position x=1280 y=0
 }
 
-output "PNP(DZX) Z1 000000000000" {
-    mode "1920x1080@60.000"
-    scale 1
+output "Invalid Vendor Codename - RTK 0x2560 0x01010101" {
+    mode "2560x1600@60.000"
+    scale 1.3
     position x=0 y=0
 }
 
-output "Stargate Technology HDMI 0x01010101" {
+output "Invalid Vendor Codename - RTK DP 0x01010101" {
     mode "2560x1600@59.997"
-    // Slightly upscale the dense 14" panel for readability.
-    scale 1.25
-    position x=1920 y=0
+    scale 1.0
+    position x=1707 y=0
 }
 
 // Settings that influence how windows are positioned and sized.
@@ -276,11 +275,14 @@ layout {
 // See the binds section below for more spawn examples.
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
-spawn-at-startup "waybar"
-spawn-at-startup "swaybg" "-m" "fill" "-i" "/home/yehj/pic/daniel-leone-v7daTKlZzaw-unsplash.jpg"
+spawn-at-startup   "waybar"
+spawn-at-startup   "copyq"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
+
+// Restore wallpaper from saved config
+spawn-sh-at-startup "python3 /home/yehj/.config/niri/script/pick-wallpaper.py restore"
 
 hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
@@ -349,12 +351,20 @@ window-rule {
     // block-out-from "screencast"
 }
 
+// anyrun launcher - make it floating and auto-close on focus loss
+window-rule {
+    match app-id="anyrun"
+    open-floating true
+    // This is a layer-shell window, so it will auto-close when clicking elsewhere
+}
+
 // Rounded corners for every window keep the new border + shadow cohesive.
 // See https://yalter.github.io/niri/Configuration:-Window-Rules#rounded-corners
 window-rule {
     geometry-corner-radius 12
     clip-to-geometry true
 }
+
 
 binds {
     // Keys consist of modifiers separated by + signs, followed by an XKB key name
@@ -376,6 +386,7 @@ binds {
     // Mod+T hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
     Mod+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
+    Super+P hotkey-overlay-title="Select Wallpaper" { spawn "/home/yehj/.config/niri/script/pick-wallpaper.py" "select"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
@@ -610,7 +621,6 @@ binds {
     // Toggle tabbed column display mode.
     // Windows in this column will appear as vertical tabs,
     // rather than stacked on top of each other.
-    Mod+W { toggle-column-tabbed-display; }
 
     // Actions to switch layouts.
     // Note: if you uncomment these, make sure you do NOT have
@@ -641,4 +651,11 @@ binds {
     // Powers off the monitors. To turn them back on, do any input like
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
+
+
+    // User applications
+    Ctrl+Alt+T hotkey-overlay-title="Translate Selection: crow popup" {
+        spawn "/home/yehj/.config/niri/scripts/selection_translate.py";
+    }
+
 }
